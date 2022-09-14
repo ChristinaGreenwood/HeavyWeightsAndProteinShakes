@@ -1,0 +1,32 @@
+/* Videos */
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    width: 100vw;
+}
+
+.sum {
+    display: flex;
+    flex-direction: column;
+    /* font-size: 14px; */
+    width: 90vw;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 90vw;
+    height: 30vh;
+    padding: 10px;
+}
+.video-about {
+    padding: 20px 20px;
+}

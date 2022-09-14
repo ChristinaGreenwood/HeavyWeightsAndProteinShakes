@@ -1,0 +1,53 @@
+/* sponsors */
+.title-spon {
+    display: flex;
+    justify-content: center;
+ }
+
+.sponsors-wrapper {
+    background-color: #F0F0F0;
+    width: 100vw;
+}
+
+.sponsors-grid {
+    padding: 20px 0px;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 92vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em;
+}
+
+.sponsors-img {
+    display: flex;
+    align-items: center;
+}
+
+.companies {
+    width: 100%;
+    padding: 2px;
+}
+
+.sponsors-text li {
+    font-size: 3rem;
+}
+
+.sponsors-text p {
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.sponsors-text ul {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.sponsors-text a {
+    font-size: 2.8rem;
+}

@@ -1,0 +1,66 @@
+/* About */
+
+.about-section {
+    box-shadow: 0px 18px 18px -12px rgba(0,0,0,0.20) inset;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+
+.award-icon {
+    color: #FFBF00;
+    font-size: 1.5em;
+}
+
+.award {
+    font-size: 3em;
+    font-weight: 600;
+    padding: 2em;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-title {
+    display: grid;
+    grid-template-rows: 2fr 1fr ;
+    width: 30vw;
+
+}
+
+.about-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.title-images {
+    width: 190px;
+    height: 350px;
+    border-radius: 10px;
+}
+.title-images img {
+    display: flex;
+}
+
+.item-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image {
+    display: flex;
+    align-items: center;
+}
+
+.image-one {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

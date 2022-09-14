@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import MainTop from './MainTop';
-import Bottom from './Bottom';
-import BottomLinks from './BottomLinks';
+import Videos from './Videos';
+import PressRelease from './PressRelease';
 import Footer from './Footer';
+import About from './About';
+import Sponsors from './Sponsors';
 
 export default class App extends Component {
   render() {
@@ -11,8 +13,10 @@ export default class App extends Component {
       <div className='app'>
         <NavBar />
         <MainTop />
-        <Bottom />
-        <BottomLinks />
+        <About />
+        <Videos />
+        <PressRelease />
+        <Sponsors />
         <Footer />
       </div>
     );
